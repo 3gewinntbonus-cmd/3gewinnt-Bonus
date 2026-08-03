@@ -562,3 +562,14 @@ nav{
     font-size:12px;
     margin-top:10px;
 }
+.werbehinweis{
+    max-width:850px;
+    margin:0 auto 45px;
+    padding:20px;
+    background:#151515;
+    border:1px solid #ff1a1a;
+    border-radius:12px;
+    text-align:center;
+    color:#ddd;
+    line-height:1.7;
+}
