@@ -491,3 +491,74 @@ nav{
     margin-bottom:30px;
 
 }
+/* ==========================
+   21.COM CASINO CARD
+========================== */
+
+.casino-logo{
+    width:170px;
+    display:block;
+    margin:0 auto 20px;
+}
+
+.rating{
+    color:#b8ff5a;
+    font-size:18px;
+    font-weight:700;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.casino-features{
+    list-style:none;
+    padding:0;
+    margin:20px 0;
+}
+
+.casino-features li{
+    padding:10px 0;
+    border-bottom:1px solid rgba(255,255,255,.08);
+    color:#f1f1f1;
+    font-size:16px;
+}
+
+.casino-hinweis{
+    margin:20px 0;
+    padding:15px;
+    background:#111;
+    border:1px solid #ff1a1a;
+    border-left:5px solid #ff1a1a;
+    border-radius:10px;
+    color:#ddd;
+    font-size:14px;
+    line-height:1.6;
+}
+
+.casino-btn{
+    display:block;
+    width:100%;
+    background:#ff1a1a;
+    color:#fff;
+    text-align:center;
+    padding:18px;
+    border-radius:12px;
+    font-size:20px;
+    font-weight:700;
+    margin:25px 0 15px;
+    box-shadow:0 0 20px rgba(255,0,0,.6);
+    transition:.3s;
+}
+
+.casino-btn:hover{
+    background:#ff3333;
+    transform:scale(1.03);
+    box-shadow:0 0 35px rgba(255,0,0,.8);
+}
+
+.casino-card small{
+    display:block;
+    text-align:center;
+    color:#999;
+    font-size:12px;
+    margin-top:10px;
+}
