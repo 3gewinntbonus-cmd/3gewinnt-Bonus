@@ -385,35 +385,67 @@ footer{
 
 @media(max-width:768px){
 
-header{
-    flex-direction:column;
-    gap:15px;
-    padding:15px;
-}
+    header{
+        height:54px;
+        padding:0 12px;
+        gap:8px;
+    }
 
-nav{
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:15px;
-}
+    .logo{
+        font-size:21px;
+    }
 
-.hero h1{
-    font-size:42px;
-}
+    nav{
+        gap:9px;
+    }
 
-.hero p{
-    font-size:18px;
-}
+    nav a{
+        font-size:10px;
+    }
 
-.info{
-    grid-template-columns:1fr;
-}
+    .nav-btn{
+        display:none;
+    }
 
-.casinos h2,
-.instagram h2,
-.kontakt h2{
-    font-size:34px;
-}
+    .hero{
+        height:100svh;
+        min-height:620px;
+    }
+
+    .hero-image{
+        object-position:center 38%;
+    }
+
+    .hero-content{
+        padding:15px;
+        padding-top:45px;
+    }
+
+    .hero h1{
+        font-size:42px;
+        line-height:1.05;
+        margin-bottom:18px;
+    }
+
+    .hero p{
+        font-size:18px;
+        line-height:1.5;
+    }
+
+    .hero-btn{
+        margin-top:25px;
+        padding:15px 32px;
+    }
+
+    .info{
+        grid-template-columns:1fr;
+    }
+
+    .casinos h2,
+    .instagram h2,
+    .kontakt h2{
+        font-size:34px;
+    }
 
 }
 /* ==========================
