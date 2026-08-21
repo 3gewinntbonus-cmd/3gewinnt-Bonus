@@ -631,3 +631,94 @@ header.hide-header {
     }
 
 }
+/* ==========================
+   18+ AGE GATE
+========================== */
+
+.age-gate {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+
+    background: rgba(0, 0, 0, 0.94);
+    backdrop-filter: blur(12px);
+}
+
+.age-box {
+    width: 100%;
+    max-width: 450px;
+
+    padding: 40px 30px;
+
+    text-align: center;
+
+    background: #111;
+    border: 1px solid rgba(255, 26, 26, 0.5);
+    border-radius: 18px;
+
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
+}
+
+.age-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.age-box h2 {
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 18px;
+}
+
+.age-box p {
+    color: #aaa;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.age-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.age-confirm,
+.age-leave {
+    width: 100%;
+    padding: 14px;
+
+    border-radius: 10px;
+    border: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.age-confirm {
+    background: #ff1a1a;
+    color: #fff;
+}
+
+.age-confirm:hover {
+    background: #e60000;
+}
+
+.age-leave {
+    background: #222;
+    color: #aaa;
+}
+
+.age-leave:hover {
+    background: #2d2d2d;
+}
