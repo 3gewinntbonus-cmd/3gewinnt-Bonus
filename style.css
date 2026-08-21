@@ -724,3 +724,11 @@ header.hide-header {
 .age-leave:hover {
     background: #2d2d2d;
 }
+.social-casino-title {
+    text-align: center;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #fff;
+    margin: 0 auto 50px;
+    max-width: 700px;
+}
