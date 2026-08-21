@@ -741,3 +741,11 @@ header.hide-header {
         margin-right: auto;
     }
 }
+.normal-casino-title {
+    text-align: center;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #fff;
+    margin: 80px auto 50px;
+    max-width: 700px;
+}
