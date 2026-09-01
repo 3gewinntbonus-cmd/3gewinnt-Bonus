@@ -787,3 +787,69 @@ header.hide-header {
     color:#fff;
     font-weight:700;
 }
+/* ==========================
+   SUPPORT
+========================== */
+
+.support{
+    background:#101010;
+    padding:90px 8%;
+    text-align:center;
+}
+
+.support h2{
+    font-size:48px;
+    margin-bottom:45px;
+}
+
+.support-box{
+    max-width:700px;
+    margin:0 auto;
+    padding:40px 35px;
+    background:#171717;
+    border:2px solid #ff1a1a;
+    border-radius:20px;
+    box-shadow:0 0 30px rgba(255,26,26,.25);
+}
+
+.support-box h3{
+    color:#ff1a1a;
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+.support-box p{
+    color:#ddd;
+    font-size:17px;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.support-box .hero-btn{
+    margin-top:10px;
+    word-break:break-word;
+}
+
+@media(max-width:768px){
+
+    .support{
+        padding:70px 20px;
+    }
+
+    .support h2{
+        font-size:36px;
+    }
+
+    .support-box{
+        padding:30px 20px;
+    }
+
+    .support-box h3{
+        font-size:24px;
+    }
+
+    .support-box p{
+        font-size:15px;
+    }
+
+}
