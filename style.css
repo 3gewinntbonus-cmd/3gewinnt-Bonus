@@ -400,7 +400,12 @@ footer{
 }
 
     nav{
-    gap:7px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    width:100%;
+    flex-wrap:wrap;
 }
 
 nav a{
