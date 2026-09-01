@@ -394,8 +394,10 @@ footer{
     }
 
     .logo{
-        font-size:21px;
-    }
+    font-size:21px;
+    text-align:center;
+    width:100%;
+}
 
     nav{
     gap:7px;
