@@ -398,12 +398,13 @@ footer{
     }
 
     nav{
-        gap:9px;
-    }
+    gap:12px;
+}
 
-    nav a{
-        font-size:10px;
-    }
+nav a{
+    font-size:11px;
+    white-space:nowrap;
+}
 
     .nav-btn{
         display:none;
