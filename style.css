@@ -758,3 +758,32 @@ header.hide-header {
         margin-right: auto;
     }
 }
+.casino-wichtig{
+    margin:20px 0;
+    padding:18px;
+    background:rgba(255,26,26,.10);
+    border:2px solid #ff1a1a;
+    border-radius:12px;
+    text-align:left;
+    box-shadow:0 0 18px rgba(255,26,26,.18);
+}
+
+.casino-wichtig-title{
+    color:#ff1a1a;
+    font-size:16px;
+    font-weight:800;
+    margin-bottom:8px;
+    letter-spacing:.5px;
+}
+
+.casino-wichtig p{
+    margin:0;
+    color:#eee;
+    font-size:14px;
+    line-height:1.6;
+}
+
+.casino-wichtig strong{
+    color:#fff;
+    font-weight:700;
+}
