@@ -483,13 +483,25 @@ function leaveSite() {
     window.location.href = "https://www.google.com";
 }
 function toggleOffer(button) {
-    const details = button.nextElementSibling;
+    const currentDetails = button.nextElementSibling;
 
-    if (details.style.display === "block") {
-        details.style.display = "none";
+    document.querySelectorAll(".offer-details").forEach(function(details) {
+        if (details !== currentDetails) {
+            details.style.display = "none";
+
+            const otherButton = details.previousElementSibling;
+
+            if (otherButton && otherButton.classList.contains("toggle-offer")) {
+                otherButton.innerHTML = "Angebot anzeigen ▼";
+            }
+        }
+    });
+
+    if (currentDetails.style.display === "block") {
+        currentDetails.style.display = "none";
         button.innerHTML = "Angebot anzeigen ▼";
     } else {
-        details.style.display = "block";
+        currentDetails.style.display = "block";
         button.innerHTML = "Angebot schließen ▲";
     }
 }
