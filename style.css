@@ -855,7 +855,10 @@ header.hide-header {
 ========================== */
 
 .offer-details {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
 }
 /* ==========================
    ANGEBOT AUFKLAPPEN BUTTON
