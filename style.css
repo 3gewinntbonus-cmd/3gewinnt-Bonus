@@ -857,3 +857,35 @@ header.hide-header {
 .offer-details {
     display: none;
 }
+/* ==========================
+   ANGEBOT AUFKLAPPEN BUTTON
+========================== */
+
+.toggle-offer{
+    display:inline-block;
+    margin:20px auto;
+    padding:14px 28px;
+
+    background:#111;
+    color:#fff;
+
+    border:2px solid #ff1a1a;
+    border-radius:40px;
+
+    font-family:'Poppins',sans-serif;
+    font-size:16px;
+    font-weight:700;
+
+    cursor:pointer;
+
+    box-shadow:0 0 15px rgba(255,26,26,.25);
+
+    transition:.3s;
+}
+
+.toggle-offer:hover{
+    background:#ff1a1a;
+    color:#fff;
+    transform:translateY(-2px);
+    box-shadow:0 0 25px rgba(255,26,26,.55);
+}
