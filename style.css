@@ -850,3 +850,10 @@ header.hide-header {
     }
 
 }
+/* ==========================
+   AUFKLAPPBARE CASINO-KARTEN
+========================== */
+
+.offer-details {
+    display: none;
+}
