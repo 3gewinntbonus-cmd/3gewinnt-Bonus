@@ -497,7 +497,7 @@ function toggleOffer(button) {
         }
     });
 
-    if (currentDetails.style.display === "block") {
+    if (currentDetails.classList.contains("open")) {
         currentDetails.classList.remove("open");
         button.innerHTML = "Angebot anzeigen ▼";
     } else {
