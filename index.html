@@ -498,7 +498,7 @@ function toggleOffer(button) {
     });
 
     if (currentDetails.style.display === "block") {
-        currentDetails.style.display = "none";
+        currentDetails.classList.remove("open");
         button.innerHTML = "Angebot anzeigen ▼";
     } else {
         currentDetails.classList.add("open");
