@@ -466,6 +466,17 @@ function confirmAge() {
 function leaveSite() {
     window.location.href = "https://www.google.com";
 }
+function toggleOffer(button) {
+    const details = button.nextElementSibling;
+
+    if (details.style.display === "block") {
+        details.style.display = "none";
+        button.innerHTML = "Angebot anzeigen ▼";
+    } else {
+        details.style.display = "block";
+        button.innerHTML = "Angebot schließen ▲";
+    }
+}
 </script>
 </body>
 </html>
