@@ -501,7 +501,7 @@ function toggleOffer(button) {
         currentDetails.classList.remove("open");
         button.innerHTML = "Angebot anzeigen ▼";
     } else {
-        currentDetails.style.display = "block";
+        currentDetails.classList.add("open");
         button.innerHTML = "Angebot schließen ▲";
     }
 }
