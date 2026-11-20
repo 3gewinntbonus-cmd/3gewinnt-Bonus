@@ -912,3 +912,16 @@ header.hide-header {
         transform: translateY(0);
     }
 }
+.casino-card .casino-features ul {
+    list-style: none !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
+
+.casino-card .casino-features li {
+    list-style: none !important;
+}
+
+.casino-card .casino-features li::marker {
+    content: "";
+}
